@@ -1,0 +1,5 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 435'>
+<ellipse cx='250' cy='347' rx='126' ry='16' fill='#59664e' opacity='.1'/><g stroke='#7c826a' stroke-width='2' stroke-linejoin='round'>
+<path d='M140 193h220v146H140z' fill='#e9e3d3'/><path d='M125 166h250v43H125z' fill='#f7f5ee'/><path d='M231 166h38v173h-38z' fill='#aeb697'/>
+<path d='M250 166c-101-1-104-75-67-68 35 6 49 35 67 68z' fill='#c8cdb9'/><path d='M250 166c101-1 104-75 67-68-35 6-49 35-67 68z' fill='#c8cdb9'/></g>
+<path d='M275 230l39 18-18 38-39-18z' fill='#fffdf5'/><text x='286' y='269' text-anchor='middle' fill='#a77660' font-family='Georgia,serif' font-size='26'>♡</text></svg>

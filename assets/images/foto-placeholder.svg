@@ -1,0 +1,5 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 1100'>
+<defs><linearGradient id='bg' x2='1' y2='1'><stop stop-color='#a4ad94'/><stop offset='1' stop-color='#d6d0bb'/></linearGradient></defs>
+<rect width='900' height='1100' fill='url(#bg)'/><rect x='90' y='100' width='720' height='900' rx='350' fill='none' stroke='#f7f5ee' opacity='.4'/>
+<g fill='none' stroke='#f7f5ee' stroke-width='2' opacity='.6'><path d='M450 670Q420 530 520 390M461 585Q365 555 400 510Q460 510 461 585M475 521Q557 505 550 466Q483 460 475 521M497 456Q431 445 455 409Q500 410 497 456'/></g>
+<text x='450' y='765' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='36' fill='#303b31'>Uma memória de nós</text><text x='450' y='810' text-anchor='middle' font-family='Arial,sans-serif' font-size='15' letter-spacing='3' fill='#303b31'>SUA FOTOGRAFIA AQUI</text></svg>

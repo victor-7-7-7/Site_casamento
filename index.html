@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang='pt-BR'>
+<head>
+<meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='theme-color' content='#f7f5ee'><meta name='description' content='Nosso casamento: história, convite, presentes, confirmação de presença e informações para celebrar conosco.'>
+<title>Nosso casamento</title><link rel='icon' href='assets/images/monograma.svg' type='image/svg+xml'>
+<link rel='preconnect' href='https://fonts.googleapis.com'><link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+<link href='https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700&display=swap' rel='stylesheet'>
+<link rel='stylesheet' href='style.css'><script defer src='assets/scripts/config.js'></script><script defer src='assets/scripts/app.js'></script>
+</head>
+<body>
+<a class='skip-link' href='#conteudo'>Pular para o conteúdo</a>
+<header class='header'>
+<a class='monogram' href='#inicio' aria-label='Voltar ao início' data-text='monogram'>N & N</a>
+<button class='menu-toggle' aria-label='Abrir menu' aria-controls='menu' aria-expanded='false'><span></span><span></span></button>
+<nav id='menu' aria-label='Menu principal'><a href='#inicio'>Início</a><a href='#historia'>Nossa história</a><a href='#convite'>Convite</a><a href='#presentes'>Presentes</a><a href='#confirmacao'>Confirme sua presença</a><a href='#local'>Local</a><a href='#padrinhos'>Padrinhos</a></nav>
+</header>
+<main id='conteudo'>
+<section class='hero' id='inicio' aria-labelledby='hero-title'>
+<img class='hero-photo' data-photo='hero' alt='' fetchpriority='high' width='1800' height='1200'><div class='hero-shade'></div>
+<div class='hero-content'><p class='eyebrow'>UM NOVO CAPÍTULO. UMA VIDA INTEIRA.</p>
+<h1 id='hero-title'><span data-text='bride'>[NOME DA NOIVA]</span><em>&</em><span data-text='groom'>[NOME DO NOIVO]</span></h1>
+<p class='hero-date' data-text='dateLabel'>[DATA DO CASAMENTO]</p><p class='hero-message' data-text='welcome'>[MENSAGEM DE ABERTURA ESCRITA PELO CASAL]</p>
+<a class='button button-light' href='#confirmacao'>Vamos celebrar juntos <span aria-hidden='true'>↗</span></a></div>
+<a class='hero-scroll' href='#contagem'>NOSSO PARA SEMPRE COMEÇA AQUI <span aria-hidden='true'>↓</span></a><span class='photo-note'>Fotografia ilustrativa</span>
+</section>
+<section class='countdown-section section' id='contagem' aria-labelledby='countdown-title'>
+<p class='eyebrow'>CADA INSTANTE NOS APROXIMA</p><h2 id='countdown-title'>Contando os dias para o <em>sim.</em></h2>
+<div class='countdown' aria-label='Tempo até o casamento'><div><strong id='days'>—</strong><span>dias</span></div><i aria-hidden='true'>:</i><div><strong id='hours'>—</strong><span>horas</span></div><i aria-hidden='true'>:</i><div><strong id='minutes'>—</strong><span>minutos</span></div><i aria-hidden='true'>:</i><div><strong id='seconds'>—</strong><span>segundos</span></div></div>
+<p id='countdown-message' role='status'>Em breve, a nossa data especial.</p><button class='text-link calendar-button' id='save-date' type='button' hidden>Salvar a data no calendário ↓</button><blockquote><p data-text='verse'>[VERSÍCULO ESCOLHIDO PELO CASAL]</p><cite data-text='verseReference'>[REFERÊNCIA DO VERSÍCULO]</cite></blockquote>
+</section>
+<section class='story section wrap reveal' id='historia' aria-labelledby='story-title'>
+<div class='story-photos'><img class='story-main' data-photo='story' loading='lazy' alt='' width='700' height='900'><figure class='polaroid story-small'><img data-photo='old' loading='lazy' alt='' width='400' height='450'><figcaption>o começo de tudo ♡</figcaption></figure><span class='vertical-note'>DO PRIMEIRO ENCONTRO AO PARA SEMPRE</span></div>
+<div class='story-copy'><p class='eyebrow'>01 / NOSSA HISTÓRIA</p><h2 id='story-title'>O amor mora<br>nos <em>detalhes.</em></h2><span class='tiny-flower' aria-hidden='true'>✳</span><p class='personal-copy' data-text='story'>[NOSSA HISTÓRIA — UM TEXTO ESCRITO POR NÓS]</p><p class='signature' data-text='couple'>[NOMES DO CASAL]</p></div>
+</section>
+<section class='memories section wrap reveal' aria-labelledby='memories-title'>
+<div class='section-heading'><div><p class='eyebrow'>PEDACINHOS DA NOSSA VIDA</p><h2 id='memories-title'>O que vivemos.<br>O que vamos <em>lembrar.</em></h2></div><p>Entre ontem e hoje,<br>um tanto de nós.</p></div><div class='gallery' id='gallery'></div><p class='image-disclaimer'>Imagens ilustrativas — em breve, nossas próprias memórias.</p>
+</section>
+<section class='invitation-section section' id='convite' aria-labelledby='invitation-title'><div class='wrap reveal'>
+<p class='eyebrow'>02 / O CONVITE</p><h2 id='invitation-title'>Tem um lugar reservado<br>para você na nossa <em>história.</em></h2><p>Uma carta, um carinho e um convite para celebrar.</p>
+<div class='envelope' id='envelope'><div class='envelope-back'></div><div class='envelope-flap'></div>
+<article class='invitation-card' id='invitation-card' inert><p class='eyebrow'>COM AMOR, CONVIDAMOS VOCÊ</p><h3 data-text='couple'>[NOMES DO CASAL]</h3><div class='card-rule'></div><p data-text='dateLabel'>[DATA DO CASAMENTO]</p><p data-text='timeLabel'>[HORÁRIO]</p><p class='venue-name' data-text='venue.name'>[NOME DO LOCAL]</p><p class='small' data-text='venue.address'>[ENDEREÇO COMPLETO]</p><a class='text-link' data-map>Ver localização ↗</a></article>
+<figure class='polaroid envelope-photo' aria-hidden='true'><img data-photo='old' alt='' loading='lazy' width='400' height='450'><figcaption>desde o nosso começo</figcaption></figure><div class='envelope-front'></div>
+<button class='envelope-seal' id='open-envelope' aria-expanded='false' aria-controls='invitation-card' aria-label='Abrir o convite'>&</button></div><p class='envelope-hint' id='envelope-hint'>Toque no selo para abrir o convite</p></div></section>
+<section class='video-section section wrap reveal' aria-labelledby='video-title'><p class='eyebrow'>O INÍCIO DO NOSSO PARA SEMPRE</p><h2 id='video-title'>Um pedido.<br>Mil motivos para dizer <em>sim.</em></h2>
+<div class='video-frame'><video id='proposal-video' controls playsinline preload='none' aria-label='Vídeo do pedido de casamento' hidden><source src='assets/videos/pedido-casamento.mp4' type='video/mp4'><track id='video-captions' kind='captions' srclang='pt-BR' label='Português'></video><div class='video-placeholder' id='video-placeholder'><span aria-hidden='true'>♡</span><p>Um momento para guardar para sempre.</p><small>O vídeo do nosso pedido estará aqui em breve.</small></div></div><p class='small personal-copy' data-text='proposalDescription'>[DESCRIÇÃO DO PEDIDO ESCRITA PELO CASAL]</p>
+</section>
+<section class='gifts-section section' id='presentes' aria-labelledby='gifts-title'><div class='wrap reveal'>
+<div class='section-heading'><div><p class='eyebrow'>03 / LISTA DE PRESENTES</p><h2 id='gifts-title'>Carinho que vira <em>lar.</em></h2></div><p>Sua presença é o nosso maior presente.<br>Se quiser nos mimar, deixamos algumas ideias.</p></div>
+<div class='gift-filters' role='group' aria-label='Filtrar presentes'><button class='filter active' data-filter='all' aria-pressed='true'>Todos</button><button class='filter' data-filter='disponivel' aria-pressed='false'>Disponíveis</button><button class='filter' data-filter='reservado' aria-pressed='false'>Reservados</button><button class='filter' data-filter='ganhamos' aria-pressed='false'>Já ganhamos</button></div>
+<div class='gift-grid' id='gift-list'></div><p id='gift-empty' hidden>Nenhum presente nesta categoria por enquanto.</p></div></section>
+<section class='pix-section section wrap reveal' id='pix' aria-labelledby='pix-title'><div class='section-heading'><div><p class='eyebrow'>UM PRESENTE, UM SORRISO</p><h2 id='pix-title'>Para a nossa coleção<br>de <em>bons momentos.</em></h2></div><p>Pequenos presentes simbólicos,<br>grandes motivos para sorrir.</p></div><div class='symbolic-grid' id='symbolic-list'></div><p class='small pix-note'>Os valores são sugestões de presentes simbólicos. O pagamento é feito no seu banco, via Pix.</p></section>
+<section class='rsvp-section section' id='confirmacao' aria-labelledby='rsvp-title'><div class='wrap rsvp-layout reveal'>
+<div><p class='eyebrow'>04 / CONFIRME SUA PRESENÇA</p><h2 id='rsvp-title'>A festa só fica<br>completa com <em>você.</em></h2><p>Conte para nós se poderá estar presente.<br>Estamos preparando tudo com muito carinho.</p><p class='rsvp-deadline' data-text='rsvpDeadline'>[PRAZO PARA CONFIRMAÇÃO]</p><div class='botanical' aria-hidden='true'>❧</div></div>
+<form id='rsvp-form'><div class='form-grid'>
+<div class='full'><label for='full-name'>Nome completo <span>*</span></label><input id='full-name' name='full_name' autocomplete='name' required minlength='5' maxlength='120' placeholder='Como está no seu convite'></div>
+<div class='full'><label for='phone'>Telefone ou WhatsApp <span>*</span></label><input id='phone' name='phone' type='tel' autocomplete='tel' required maxlength='22' placeholder='(00) 00000-0000' aria-describedby='phone-hint'><small id='phone-hint'>Inclua o DDD. Para outros países, use + e o código do país.</small></div>
+<fieldset class='full attendance'><legend>Você estará com a gente? <span>*</span></legend><label><input type='radio' name='attending' value='yes' required> Sim, vou celebrar!</label><label><input type='radio' name='attending' value='no'> Não poderei ir</label></fieldset>
+<div class='full' id='companions-group' hidden><label for='companion-count'>Número de acompanhantes</label><select id='companion-count' name='companion_count'><option value='0'>Somente eu</option><option value='1'>1 acompanhante</option><option value='2'>2 acompanhantes</option><option value='3'>3 acompanhantes</option><option value='4'>4 acompanhantes</option><option value='5'>5 acompanhantes</option><option value='6'>6 acompanhantes</option></select><div id='companion-fields'></div><small>Considere apenas as pessoas incluídas no seu convite.</small></div>
+<div class='full'><label for='notes'>Gostaria de nos contar algo? <span class='optional'>opcional</span></label><textarea id='notes' name='notes' rows='3' maxlength='1000' placeholder='Restrições alimentares, acessibilidade ou um recadinho…'></textarea></div>
+<label class='consent full'><input type='checkbox' name='consent' required> Autorizo o uso desses dados pelo casal para organizar o casamento e entrar em contato sobre o evento.</label>
+<div class='honeypot' aria-hidden='true'><label for='website'>Deixe em branco</label><input id='website' name='website' tabindex='-1' autocomplete='off'></div></div>
+<button class='button' type='submit' id='rsvp-submit'>Enviar minha resposta <span aria-hidden='true'>↗</span></button><p id='rsvp-status' role='status' aria-live='polite'></p><p class='small'>Seus dados serão acessíveis apenas à organização do casamento.</p></form>
+</div></section>
+<section class='location-section section wrap reveal' id='local' aria-labelledby='location-title'><div class='venue-art'><img src='assets/images/local-aquarela.svg' alt='Ilustração decorativa de jardim e casa em tons de aquarela; substituir pela arte do local do casamento' loading='lazy' width='900' height='700'><span class='small'>Ilustração do local a personalizar</span></div><div><p class='eyebrow'>05 / NOSSO PONTO DE ENCONTRO</p><h2 id='location-title'>O cenário do<br>nosso <em>sim.</em></h2><h3 data-text='venue.name'>[NOME DO LOCAL]</h3><address data-text='venue.address'>[ENDEREÇO COMPLETO]</address><p data-text='timeLabel'>[HORÁRIO]</p><a class='button' data-map>Como chegar <span aria-hidden='true'>↗</span></a><p class='small' data-text='venue.notes'>[INFORMAÇÕES SOBRE ACESSO E ESTACIONAMENTO]</p></div></section>
+<section class='party-section section' id='padrinhos' aria-labelledby='party-title'><div class='wrap reveal'><p class='eyebrow'>06 / PADRINHOS & MADRINHAS</p><h2 id='party-title'>Ao nosso lado.<br>No nosso <em>coração.</em></h2><p class='personal-copy' data-text='party.message'>[MENSAGEM PARA OS PADRINHOS E MADRINHAS]</p>
+<div class='party-grid'><article><span class='detail-number'>01</span><h3>O que vestir</h3><p data-text='party.dressCode'>[DRESS CODE DOS PADRINHOS]</p></article><article><span class='detail-number'>02</span><h3>Nossa paleta</h3><div id='palette' class='palette'></div><p data-text='party.paletteNote'>[ORIENTAÇÕES SOBRE AS CORES]</p></article><article><span class='detail-number'>03</span><h3>Um pouquinho antes</h3><p data-text='party.arrival'>[HORÁRIO DE CHEGADA DOS PADRINHOS]</p></article></div><p class='small personal-copy' data-text='party.notes'>[OBSERVAÇÕES PARA PADRINHOS]</p></div></section>
+<section class='closing' aria-labelledby='closing-title'><img data-photo='closing' alt='' loading='lazy' width='1800' height='1000'><div class='closing-content'><p class='eyebrow'>COM TODO O NOSSO AMOR</p><h2 id='closing-title'>O melhor ainda<br>está por <em>vir.</em></h2><p data-text='closing'>[MENSAGEM FINAL DO CASAL]</p><p class='signature' data-text='couple'>[NOMES DO CASAL]</p></div></section>
+</main>
+<dialog id='gallery-dialog' aria-labelledby='gallery-caption'>
+<button class='dialog-close' id='close-gallery' type='button' aria-label='Fechar fotografia'>×</button>
+<figure><img id='gallery-large' alt='' width='1200' height='900'><figcaption id='gallery-caption'></figcaption></figure>
+<div class='gallery-controls'><button type='button' id='gallery-previous' aria-label='Fotografia anterior'>← Anterior</button><span id='gallery-position' role='status'></span><button type='button' id='gallery-next' aria-label='Próxima fotografia'>Próxima →</button></div>
+</dialog>
+<footer><a class='monogram' href='#inicio' data-text='monogram'>N & N</a><p>Feito de amor, para celebrar com você.</p><a href='#inicio'>Voltar ao início ↑</a></footer>
+<dialog id='pix-dialog' aria-labelledby='pix-dialog-title'><button class='dialog-close' id='close-pix' aria-label='Fechar pagamento Pix'>×</button><p class='eyebrow'>UM CARINHO PARA NÓS</p><h2 id='pix-dialog-title'>Presentear via Pix</h2><p id='pix-description'></p><strong id='pix-amount'></strong><p>Copie a chave e use a opção de transferência por chave Pix no seu banco.</p><label for='pix-key'>Chave Pix</label><input id='pix-key' readonly><p class='small' id='pix-recipient'></p><button class='button' id='copy-pix'>Copiar chave Pix</button><p id='pix-status' role='status'></p><p class='small'>Confira o nome do recebedor antes de concluir. Este site não verifica nem confirma pagamentos.</p></dialog>
+<noscript><div class='noscript'>Ative o JavaScript para ver os dados do convite, os presentes e enviar sua confirmação.</div></noscript>
+</body></html>
